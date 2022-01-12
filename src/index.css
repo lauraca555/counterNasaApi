@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkgrey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+.nasa-api_content {
+  font-display: flex;
+  padding: 0px 100px;
+  flex-direction: column;
+  align-items: center; 
+  background-color: aliceblue; 
+  height: 100%;
+}
+.text-nasa{
+  text-align: left;
+  padding: 0px 30px;
+
+}
+
+.image-nasa{
+  max-height: 450px; 
+  display: inline-flex;  
+}
+.video-nasa{
+  width : 560px;
+  height: 315px;
+}
+.heading {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(228, 224, 189);
+  margin: 20px;
+}
+
