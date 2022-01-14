@@ -40,14 +40,14 @@ class TestAxios extends Component {
         
             return(
             <>
-            <div className="nasa-api_content">
-                <h1>{ this.props.title }</h1> 
+            
+                <h1 className="title">{ this.props.title }</h1> 
                 <div className="media-content">
                     {this.getMedia()}
                 </div> 
-                <div><p className="text-nasa">{this.props.explanation}</p></div>
+                <div className="text-nasa"><p >{this.props.explanation}</p></div>
                 
-            </div>
+            
             
 
             </>
